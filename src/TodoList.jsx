@@ -43,7 +43,7 @@ function TodoList() {
 
   return (
     <>
-      <h2>React Todo App</h2>
+      <h2>오늘의 할 일</h2>
       <div className="header">
         <input value={newTask} onChange={handleInputChange} type="text" id="taskInput" />
         <button onClick={addTask} className="addButton">
