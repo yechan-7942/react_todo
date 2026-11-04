@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: var(--react-dark-blue);
+  background-color: #302744;
   font-family: 'Roboto', sans-serif;
   color: var(--react-white);
   display: flex;
