@@ -50,6 +50,7 @@ function TodoList() {
           Add
         </button>
       </div>
+      <p role="status">등록된 할 일: {tasks.length}개</p>
       <ul id="taskList">
         {tasks.map((task, index) => (
             <li key={index}>
